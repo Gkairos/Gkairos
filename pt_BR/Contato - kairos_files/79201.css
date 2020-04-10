@@ -1,0 +1,702 @@
+/* DEFAULT VALUES */
+#main_container .content h1,
+#main_container .content h2,
+#main_container .content h3{
+  color: #530000;
+	color: #530000;
+}
+
+#main_container .content h4,
+#main_container .content h5,
+#main_container .content h6{
+  color: #6F1C1C;
+	color: #6f1c1c;
+}
+
+#main_container .content,
+#main_container .content p,
+#main_container .content blockquote,
+#main_container .content ol li,
+#main_container .content ul li,
+#main_container .content .tray_content label,
+#main_container .content div.form label {
+  color: #4B4B4B;
+	color: #4b4b4b;
+}
+
+#main_container .content a,
+#main_container .content button,
+#main_container .content input[type="submit"] {
+  color: #FF4141;
+	color: #ff4141;
+}
+
+#main_container .content .wrapper input[type="submit"] {
+  color: #D9B4B4;
+	color: #d9b4b4;
+  background: #FF4141;
+	background: #ff4141;
+}
+
+#main_container #wrap_content {
+  background-color: #FFFFFF;
+	background-color: #ffffff;
+}
+
+#main_container .open_menu,
+#main_container #site_menu li a {
+  color: #FFFFFF;
+	color: #ffffff;
+}
+
+#main_container .open_menu span {
+  border-top-color: #FFFFFF;
+	border-top-color: #ffffff;
+}
+
+#main_container #site_menu ul li ul {
+  background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container .open_menu span.active {
+  border-bottom-color: #FFFFFF;
+	border-bottom-color: #ffffff;
+}
+
+#main_container #wrap_header {
+  color: #530000;
+	color: #530000;
+}
+
+#main_container #wrap_footer {
+  color: #D9B4B4;
+	color: #d9b4b4;
+}
+
+/* background image repeat */
+#main_container {
+  background-color: #DCDCDC;
+	background-color: #dcdcdc;
+}
+
+#main_container.background_image_repeat_repeat-y{
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+#main_container.background_image_repeat_repeat-x{
+  background-repeat: repeat-x;
+}
+
+#main_container.background_image_repeat_repeat{
+  background-repeat: repeat;
+}
+
+#main_container.background_image_repeat_no-repeat{
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* Renders */
+/* It was necessary to put the full path of partial because the */
+/* controller was just render stylesheets_preview file with the correct path. */
+  
+/* Unique THEME */
+#main_container.menu_style_unique.menu_orientation_vertical #wrap_header {
+	border-bottom: 6px solid #880000;
+}
+
+#main_container.menu_style_unique #site_menu .wrapper {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_unique #site_menu .wrapper ul ul {
+	background: #880000;
+	background: #880000;
+}
+
+#main_container.menu_style_unique #site_menu .wrapper ul ul a {
+	color: #FFFFFF;
+	color: #ffffff;
+}
+
+#main_container.menu_style_unique.menu_orientation_vertical #site_menu .wrapper > ul > li > a:hover:after,
+#main_container.menu_style_unique.menu_orientation_vertical #site_menu .wrapper > ul > li > a.active:after,
+#main_container.menu_style_unique.menu_orientation_vertical #site_menu .wrapper > ul > li:hover > a:after {
+	border-right-color: #FFFFFF;
+	border-right-color: #ffffff;
+}
+
+
+#main_container.menu_style_unique.menu_orientation_horizontal #site_menu .wrapper > ul > li a:hover:after,
+#main_container.menu_style_unique.menu_orientation_horizontal #site_menu .wrapper > ul > li a.active:after,
+#main_container.menu_style_unique.menu_orientation_horizontal #site_menu .wrapper > ul > li:hover > a:after {
+	border-bottom-color: #FFFFFF;
+	border-bottom-color: #ffffff;
+}
+
+@media all and (max-width: 650px) {
+	#main_container.menu_style_unique.menu_orientation_horizontal #site_menu .wrapper > ul > li > a:hover:after,
+	#main_container.menu_style_unique.menu_orientation_horizontal #site_menu .wrapper > ul > li > a.active:after,
+	#main_container.menu_style_unique.menu_orientation_horizontal #site_menu .wrapper > ul > li:hover > a:after {
+		border-color: transparent;
+		border-right-color: #FFFFFF;
+	border-right-color: #ffffff;
+	}
+}
+
+  
+/* Geometric THEME */
+#main_container.menu_style_geometric.menu_orientation_vertical #wrap_header {
+	border-bottom: 8px solid transparent;
+	border-bottom-color: #880000;
+	border-bottom-color: #880000;
+}
+
+#main_container.menu_style_geometric #site_menu .wrapper {
+	background: #880000;
+	background: #880000;
+}
+
+  
+/* Lightbox THEME */
+
+#main_container.menu_style_lightbox #site_menu .wrapper ul li a {
+	zoom: 1;
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_lightbox #site_menu .wrapper > ul > li > ul li a {
+	color: #FFFFFF;
+	color: #ffffff;
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_lightbox.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul li a {
+	color: #FFFFFF;
+	color: #ffffff;
+}
+
+#main_container.menu_style_lightbox.menu_orientation_vertical #site_menu .wrapper ul li a:after {
+	border-left-color: #FFFFFF;
+	border-left-color: #ffffff;
+}
+
+@media all and (max-width: 650px) {
+	#main_container.menu_style_lightbox #site_menu .wrapper .open_menu {
+		zoom: 1;
+		background-color: #880000;
+	background-color: #880000;
+	}
+}
+
+  
+/* Levita THEME */
+
+#main_container.menu_style_levita #site_menu .wrapper > ul {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_levita #site_menu .wrapper > ul > li > a.active:after,
+#main_container.menu_style_levita #site_menu .wrapper > ul > li:hover > a:after {
+	zoom: 1;
+	background-color: #FF4141;
+	background-color: #ff4141;
+}
+
+#main_container.menu_style_levita #site_menu .wrapper > ul > li > ul {
+	background-color: #FFFFFF;
+	background-color: #ffffff;
+}
+
+#main_container.menu_style_levita #site_menu .wrapper > ul > li > ul a {
+	color: #DCDCDC;
+	color: #dcdcdc;
+}
+
+#main_container.menu_orientation_vertical.menu_style_levita #site_menu .wrapper > ul > li > a.active,
+#main_container.menu_orientation_vertical.menu_style_levita #site_menu .wrapper > ul > li > a:hover,
+#main_container.menu_orientation_vertical.menu_style_levita #site_menu .wrapper > ul > li > ul li a.active,
+#main_container.menu_orientation_vertical.menu_style_levita #site_menu .wrapper > ul > li > ul li a:hover {
+	border-bottom-color: #FF4141;
+	border-bottom-color: #ff4141;
+}
+
+#main_container.menu_style_levita.menu_orientation_horizontal #site_menu .wrapper > ul > li:hover > a:before,
+#main_container.menu_style_levita.menu_orientation_horizontal #site_menu .wrapper > ul > li > a:hover:before,
+#main_container.menu_style_levita.menu_orientation_horizontal #site_menu .wrapper > ul > li > a.active:before {
+	background-color: #FF4141;
+	background-color: #ff4141;
+}
+
+#main_container.menu_style_levita.menu_orientation_vertical #site_menu .wrapper > ul > li ul a {
+	color: #FFFFFF;
+	color: #ffffff;
+}
+
+#main_container.menu_style_levita.menu_orientation_horizontal #site_menu .wrapper > ul > li ul a.active,
+#main_container.menu_style_levita.menu_orientation_horizontal #site_menu .wrapper > ul > li ul a:hover {
+	border-bottom-color: #FF4141;
+	border-bottom-color: #ff4141;
+}
+
+@media all and (max-width: 650px) {
+	#main_container.menu_style_levita #site_menu .wrapper .open_menu {
+		zoom: 1;
+		background-color: #880000;
+	background-color: #880000;
+	}
+
+	#main_container.menu_style_levita #site_menu .wrapper li {
+		text-align: center;
+	}
+
+	#main_container.menu_style_levita #site_menu .wrapper {
+		zoom: 1;
+		background-color: #880000;
+	background-color: #880000;
+	}
+	#main_container.menu_style_levita.menu_orientation_horizontal #site_menu .wrapper > ul > li ul a {
+		color: #FFFFFF;
+	color: #ffffff;
+	}
+}
+
+  
+/* Risca de Giz THEME */
+
+#main_container.menu_style_risca_de_giz #site_menu .wrapper > ul {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+
+#main_container.menu_style_risca_de_giz.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul {
+	background-color: #FFFFFF;
+	background-color: #ffffff;
+}
+
+#main_container.menu_style_risca_de_giz.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul a,
+#main_container.menu_style_risca_de_giz.menu_orientation_vertical #site_menu .wrapper > ul > li > ul a {
+	color: #FF4141;
+	color: #ff4141;
+}
+
+#main_container.menu_style_risca_de_giz.menu_orientation_vertical #site_menu .wrapper > ul > li > ul a:hover,
+#main_container.menu_style_risca_de_giz.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul a:hover,
+#main_container.menu_style_risca_de_giz.menu_orientation_vertical #site_menu .wrapper > ul > li > ul a.active,
+#main_container.menu_style_risca_de_giz.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul a.active {
+	color: #FFFFFF;
+	color: #ffffff;
+}
+
+@media all and (max-width: 650px) {
+	#main_container.menu_style_risca_de_giz #site_menu .wrapper .open_menu,
+	#main_container.menu_style_risca_de_giz #site_menu .wrapper {
+		zoom: 1;
+		background-color: #880000;
+	background-color: #880000;
+	}
+}
+
+  
+/* Esporte THEME */
+#main_container.menu_style_esporte #site_menu {
+	zoom: 1;
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_esporte.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_esporte.menu_orientation_vertical #site_menu .wrapper > ul > li > ul a:hover,
+#main_container.menu_style_esporte.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul a:hover {
+	color: #4B4B4B;
+	color: #4b4b4b;
+}
+
+@media all and (max-width: 650px) {
+	#main_container.menu_style_esporte #site_menu .wrapper .open_menu {
+		zoom: 1;
+		background-color: #880000;
+	background-color: #880000;
+	}
+}
+
+  
+/* Eletrônico THEME */
+#main_container.menu_style_eletronico.menu_orientation_vertical #site_menu .wrapper > ul > li > ul a,
+#main_container.menu_style_eletronico.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul a {
+	background-color: #880000;
+	background-color: #880000;
+	color: #FFFFFF;
+	color: #ffffff;
+}
+
+#main_container.menu_style_eletronico #site_menu .wrapper > ul > li > a {
+	border-left: 6px solid #ffffff;
+	zoom: 1;
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_eletronico #site_menu .wrapper > ul > li > ul {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_eletronico.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul a.active,
+#main_container.menu_style_eletronico.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul a:hover,
+#main_container.menu_style_eletronico.menu_orientation_vertical #site_menu .wrapper > ul > li > ul a.active,
+#main_container.menu_style_eletronico.menu_orientation_vertical #site_menu .wrapper > ul > li > ul a:hover {
+	color: #FF4141;
+	color: #ff4141;
+}
+
+#main_container.menu_style_eletronico #site_menu .wrapper > ul > li > a.active {
+	border-left: 6px solid #ff4141;
+	color: #FF4141;
+	color: #ff4141;
+}
+
+#main_container.menu_style_eletronico #site_menu .wrapper > ul > li:hover > a,
+#main_container.menu_style_eletronico #site_menu .wrapper > ul > li > a:hover,
+#main_container.menu_style_eletronico #site_menu .wrapper > ul > li > ul a {
+	color: #FF4141;
+	color: #ff4141;
+}
+
+@media all and (max-width: 650px) {
+	#main_container.menu_style_eletronico #site_menu .wrapper .open_menu {
+		zoom: 1;
+		background-color: #880000;
+	background-color: #880000;
+	}
+
+	#main_container.menu_style_eletronico.menu_orientation_horizontal #site_menu .wrapper > ul > li > ul a {
+		background-color: #880000;
+	background-color: #880000;
+	}
+}
+
+  
+/* Young and Minimal THEMES */
+#main_container.menu_style_minimal #site_menu .wrapper > ul > li > a {
+	font-style: italic;
+	color: #FFFFFF;
+	color: #ffffff;
+}
+
+#main_container.menu_style_minimal #site_menu .wrapper > ul > li a.active,
+#main_container.menu_style_minimal #site_menu .wrapper > ul > li a:hover,
+#main_container.menu_style_minimal #site_menu .wrapper > ul > li a:focus,
+#main_container.menu_style_minimal #site_menu .wrapper > ul > li:hover > a,
+#main_container.menu_style_minimal.menu_orientation_vertical .wrapper > ul > li > ul > li > a:hover {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+@media all and (max-width: 650px) {
+	#main_container.menu_style_minimal #site_menu .wrapper .open_menu {
+		zoom: 1;
+		background-color: #880000;
+	background-color: #880000;
+	}
+
+	#main_container.menu_style_minimal #site_menu .wrapper > ul > li {
+		background-color: #880000;
+	background-color: #880000;
+	}
+}
+
+#main_container.menu_style_minimal .content input[type="submit"],
+#main_container.menu_style_minimal .content .wrapper input[type="submit"] {
+	color: #FFFFFF;
+	color: #ffffff;
+	background: #880000;
+	background: #880000;
+}
+
+  
+/* Natural Menu */
+#main_container.menu_style_natural #site_menu .wrapper {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_natural.menu_orientation_horizontal #site_menu .wrapper > ul > li:hover > a,
+#main_container.menu_style_natural.menu_orientation_horizontal #site_menu .wrapper > ul > li > a.active {
+	border-top-color: #FF4141;
+	border-top-color: #ff4141;
+}
+
+#main_container.menu_style_natural.menu_orientation_vertical #site_menu .wrapper > ul > li:hover > a,
+#main_container.menu_style_natural.menu_orientation_vertical #site_menu .wrapper > ul > li > a.active {
+	box-shadow: inset 3px 0 0 #ff4141;
+}
+
+#main_container.menu_style_natural #site_menu .wrapper > ul > li > ul {
+	background-color: #FF4141;
+	background-color: #ff4141;
+}
+
+#main_container.menu_style_natural #site_menu .wrapper > ul > li > ul a {
+	border-bottom-color: #FFFFFF !important;
+	border-bottom-color: #ffffff !important;
+}
+
+#main_container.menu_style_natural #site_menu .wrapper > ul > li > ul:after {
+	border-bottom-color: #FF4141 !important;
+	border-bottom-color: #ff4141 !important;
+}
+
+  
+/* Baby Menu */
+#main_container.menu_style_baby #site_menu .wrapper {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_baby.menu_orientation_vertical #site_menu .wrapper > ul ul a {
+	color: #4B4B4B;
+	color: #4b4b4b;
+}
+
+  
+/* Wood Menu */
+#main_container.menu_style_wood #site_menu .wrapper > ul,
+#main_container.menu_style_wood.menu_orientation_horizontal #site_menu .wrapper > ul > li:hover {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_wood.menu_orientation_horizontal #site_menu .wrapper > ul > li:hover a {
+  color: #FF4141;
+	color: #ff4141;
+}
+
+  /* Menu Inova */
+#main_container.menu_style_inova #site_menu .wrapper {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_orientation_vertical.menu_style_inova #wrap_content {
+	background-image: -webkit-linear-gradient( left, #880000 20%, transparent 20%);
+	background-image: -moz-linear-gradient( left, #880000 20%, transparent 20%);
+	background-image: linear-gradient( left, #880000 20%, transparent 20%);
+}
+
+#main_container.menu_style_inova.menu_orientation_horizontal #site_menu .wrapper > ul ul::after {
+	border-bottom-color: #880000;
+	border-bottom-color: #880000;
+}
+
+  
+/* Square Theme */
+#main_container.menu_style_square #site_menu .wrapper {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_square #site_menu .wrapper > ul > li {
+	color: #FFFFFF;
+	color: #ffffff;
+}
+
+#main_container.menu_style_square #site_menu .wrapper > ul > li:hover ul li,
+#main_container.menu_style_square #site_menu .wrapper > ul > li:hover a {
+	color: #880000;
+	color: #880000;
+}
+
+#main_container.menu_style_square #site_menu .wrapper > ul > li:hover,
+#main_container.menu_style_square #site_menu .wrapper > ul > li:hover ul {
+	background: #FFFFFF;
+	background: #ffffff;
+}
+
+#main_container.menu_style_square #site_menu .wrapper > ul {
+	border-top-color: #880000;
+	border-top-color: #880000;
+}
+
+#main_container.menu_style_square #site_menu .wrapper > ul > li > a.active {
+	background: #FFFFFF;
+	background: #ffffff;
+	color: #880000;
+	color: #880000;
+}
+
+#main_container.menu_style_square.menu_orientation_vertical #wrap_content {
+	background-image: -webkit-linear-gradient( left, #880000 20%, transparent 20%);
+	background-image: -moz-linear-gradient( left, #880000 20%, transparent 20%);
+	background-image: linear-gradient( left, #880000 20%, transparent 20%);
+}
+
+  
+/* Click Theme */
+#main_container.menu_style_click #site_menu .wrapper > ul {
+	background: #880000;
+	background: #880000;
+}
+
+#main_container.menu_style_click #site_menu .wrapper > ul > li > a.active {
+	color: #FF4141;
+	color: #ff4141;
+}
+
+#main_container.menu_style_click #site_menu .wrapper > ul > li > a:hover {
+	color: #6F1C1C;
+	color: #6f1c1c;
+}
+
+#main_container.menu_style_click #site_menu .wrapper > ul {
+	border-top-color: #FFFFFF;
+	border-top-color: #ffffff;
+	border-bottom-color: #FFFFFF;
+	border-bottom-color: #ffffff;
+}
+
+#main_container.menu_style_click #site_menu .wrapper ul li ul li a {
+	color: #FFFFFF;
+	color: #ffffff;
+}
+
+#main_container.menu_style_click #site_menu .wrapper ul li ul li a:hover {
+	color: #6F1C1C;
+	color: #6f1c1c;
+}
+
+@media all and (max-width: 783px) {
+	#main_container.menu_style_click #site_menu .wrapper .open_menu {
+		border-top-color: #FFFFFF;
+	border-top-color: #ffffff;
+		border-bottom-color: #FFFFFF;
+	border-bottom-color: #ffffff;
+	}
+	#main_container.menu_style_click #site_menu .wrapper > ul > li > ul li a {
+		color: #FFFFFF;
+	color: #ffffff;
+	}
+}
+
+  
+/* Zig Menu */
+#main_container.menu_style_zig #site_menu .wrapper > ul,
+#main_container.menu_style_zig #site_menu .wrapper .open_menu {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_zig.menu_orientation_horizontal #site_menu .wrapper > ul li:hover {
+	background: #880000;
+	background: #880000;
+}
+
+@media all and (max-width: 650px) {
+	#main_container #site_menu .wrapper .open_menu {
+		background-color: #880000;
+	background-color: #880000;
+	}
+}
+
+  /* Zen THEME */
+#main_container.menu_style_zen #site_menu .open_menu,
+#main_container.menu_style_zen #site_menu .wrapper ul {
+	background-color: #880000;
+	background-color: #880000;
+}
+
+#main_container.menu_style_zen #site_menu .wrapper > ul > li a:hover,
+#main_container.menu_style_zen #site_menu .wrapper > ul > li ul a:hover,
+#main_container.menu_style_zen #site_menu .wrapper > ul > li a.active {
+	color: #4B4B4B;
+	color: #4b4b4b;
+}
+
+@media all and (max-width: 650px) {
+	#main_container.menu_style_zen #site_menu .wrapper .open_menu,
+	#main_container.menu_style_zen #site_menu .wrapper > ul {
+		background-color: #D9B4B4;
+	background-color: #d9b4b4;
+	}
+}
+
+  
+/* Clean THEME */
+#main_container.menu_style_clean #site_menu .wrapper {
+  background: #880000;
+	background: #880000;
+}
+
+#main_container.menu_style_clean #site_menu .wrapper a:before {
+  border-left-color: #880000 !important;
+	border-left-color: #880000 !important;
+}
+
+#main_container.menu_style_clean #site_menu .wrapper a:after {
+	border-left-color: #FFFFFF !important;
+	border-left-color: #ffffff !important;
+}
+
+
+#main_container.menu_style_clean #site_menu .wrapper a:hover,
+#main_container.menu_style_clean #site_menu .wrapper a.active {
+  color: #FF4141;
+	color: #ff4141;
+}
+
+#main_container.menu_style_clean #site_menu .wrapper a:hover:after,
+#main_container.menu_style_clean #site_menu .wrapper a.active:after {
+  border-left-color: #FF4141 !important;
+	border-left-color: #ff4141 !important;
+}
+
+  
+/* Smooth THEME */
+#main_container.menu_style_smooth #site_menu .wrapper {
+  background: #880000;
+	background: #880000;
+}
+
+
+#main_container.menu_style_smooth #site_menu .wrapper ul ul {
+  background: #FFFFFF;
+	background: #ffffff;
+}
+
+#main_container.menu_style_smooth #site_menu .wrapper ul ul a {
+  color: #880000;
+	color: #880000;
+}
+
+#main_container.menu_style_smooth.menu_orientation_horizontal #site_menu .wrapper ul ul:before {
+  border-bottom-color: #FFFFFF !important;
+	border-bottom-color: #ffffff !important;
+}
+#main_container.menu_style_smooth.menu_orientation_vertical #site_menu .wrapper ul ul:before {
+  border-right-color: #FFFFFF !important;
+	border-right-color: #ffffff !important;
+}
+
+#main_container.menu_style_smooth #site_menu .wrapper > ul > li > a:before,
+#main_container.menu_style_smooth #site_menu .wrapper > ul > li > a:after {
+	background: #880000;
+	background: #880000;
+}
+
+#main_container.menu_style_smooth #site_menu .wrapper a:hover,
+#main_container.menu_style_smooth #site_menu .wrapper a.active {
+  color: #FF4141;
+	color: #ff4141;
+}
+
